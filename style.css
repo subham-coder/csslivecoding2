@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(to  right, rgb(99, 194, 218), blueviolet);
+}
+.logo {
+    margin-left: 47%;
+    margin-top: 10%;
+    border:3px solid white;
+    width: 100px;
+    height:100px;
+    animation-name: floatinglogo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floatinglogo {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+.para {
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+}
+.subpara {
+    text-align: center;
+    font-size: small;
+}
+.buy {
+    width:135px;
+    height:30px;
+    background-color: red;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    font-size: small;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+    margin-top:160px;
+    border-radius: 5px;
+}
+
+  
+ 
+@media  (min-width:300px) and (max-width:550px) {
+    .logo {
+        margin-left: 130px;
+       margin-top: 160px;
+    } 
+    .para {
+        width:150px;
+        margin-left: 100px;
+    }
+    .buy {
+        width:160px;
+    }
+}
+
+
+   
